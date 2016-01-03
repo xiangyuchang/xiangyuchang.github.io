@@ -3749,7 +3749,7 @@
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.8em;
 			font-weight: bold;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
@@ -3891,7 +3891,7 @@
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 0.8em;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -3905,7 +3905,7 @@
 			@media screen and (max-width: 736px) {
 
 				#intro p {
-					font-size: 1em;
+					font-size: 0.8em;
 				}
 
 			}
