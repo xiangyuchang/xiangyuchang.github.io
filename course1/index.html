@@ -1,29 +1,194 @@
----
-layout: default
----
-<header class="masthead">        
-  <h1 class="masthead-title">
-    <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a>
-  </h1>
-  <nav class="masthead-nav">
-    {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
-  </nav>
-</header>
-<div class="content list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-{% for post in site.posts %}
-  <div class="list-item">
-    <h2 class="list-post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <div class="list-post-date">
-      <time>{{ post.date | date_to_string }}</time>
-    </div>
-  </div>
-{% endfor %}
-{% endif %}
-</div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style.css" />
+<title>Course 1</title>
+</head>
+
+<body>
+    <div id="page">
+		
+        <div id="header">
+        	<h1>CS XXX</h1>
+            <ul>
+           	   	<li><a href="#">Home</a></li>
+               	<li><a href="#two">Information</a></li>
+                <li><a href="#three">Syllabus</a></li>
+                <li><a href="#four">Assignment</a></li>
+                <li><a href="#five">Reference</a></li>
+            </ul>
+        </div>
+  
+        <div id="main">
+        	<div id="one" class="main_top">
+            	<h1>Course Name (Spring Semester, 2015)</h1>
+            </div>
+            
+           	<div class="main_body">
+                <h1>Announcement</h1>
+                <p>This template uses a H1 tags for the titles of each page, (or sub titles if you prefer) and paragraphs to separate the content.  </p>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas est mi, consequat eu viverra vel, mattis quis risus. Sed iaculis nunc a enim malesuada vel ornare ante euismod. Donec euismod, enim malesuada gravida sollicitudin, mauris ante commodo massa, a egestas leo erat at lorem. Aenean justo sapien, porta tempor placerat in, iaculis id leo. Quisque non erat ut nibh semper feugiat hendrerit sed neque. Vestibulum eget lectus a erat accumsan ornare non sed nulla. Vestibulum vitae turpis vitae dolor hendrerit pretium quis in odio. Praesent scelerisque, purus ut venenatis elementum, nisl felis ultrices ante, vitae rhoncus lacus massa ut enim. In sed mi arcu. Quisque ultricies pellentesque velit, feugiat viverra est pharetra ac. Quisque id risus eget mi gravida vehicula eget in neque. Integer consectetur, mauris a venenatis dictum, nibh urna tincidunt purus, eu rhoncus ligula erat ac eros. Integer vehicula, arcu a adipiscing sollicitudin, neque erat mollis risus, eget porttitor magna ligula ac justo. Nullam lobortis tortor vitae erat commodo sodales eget non velit. Duis erat tellus, cursus eu egestas id, auctor sit amet lectus. Suspendisse pellentesque ante a leo dignissim at dignissim nibh consectetur. Vestibulum feugiat mattis velit eu luctus. Aliquam nulla leo, ullamcorper feugiat posuere vitae, fringilla eu nibh. </p>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas est mi, consequat eu viverra vel, mattis quis risus. Sed iaculis nunc a enim malesuada vel ornare ante euismod. Donec euismod, enim malesuada gravida sollicitudin, mauris ante commodo massa, a egestas leo erat at lorem. Aenean justo sapien, porta tempor placerat in, iaculis id leo. Quisque non erat ut nibh semper feugiat hendrerit sed neque. Vestibulum eget lectus a erat accumsan ornare non sed nulla. Vestibulum vitae turpis vitae dolor hendrerit pretium quis in odio. Praesent scelerisque, purus ut venenatis elementum, nisl felis ultrices ante, vitae rhoncus lacus massa ut enim. In sed mi arcu. Quisque ultricies pellentesque velit, feugiat viverra est pharetra ac. Quisque id risus eget mi gravida vehicula eget in neque. Integer consectetur, mauris a venenatis dictum, nibh urna tincidunt purus, eu rhoncus ligula erat ac eros. Integer vehicula, arcu a adipiscing sollicitudin, neque erat mollis risus, eget porttitor magna ligula ac justo. Nullam lobortis tortor vitae erat commodo sodales eget non velit. Duis erat tellus, cursus eu egestas id, auctor sit amet lectus. Suspendisse pellentesque ante a leo dignissim at dignissim nibh consectetur. Vestibulum feugiat mattis velit eu luctus. Aliquam nulla leo, ullamcorper feugiat posuere vitae, fringilla eu nibh. </p>
+                <a href="#" class="myButton">Back to top</a>
+            </div>
+            <div id="two" class="main_top">
+            	<h1>General Information</h1>
+            </div>
+
+           	<div class="main_body">
+                <h1>Level</h1>
+                <p>Undergraduate (Junior)</p>
+                <h1>Time</h1>
+                <p>XXXX</p>
+                <h1>Place</h1>
+                <p>asjdflasjdfk</p>
+                <h1>Instructor</h1>
+                <p>contace info</p>
+                <h1>TA</h1>
+                <p>contact info</p>
+                <h1>Textbook</h1>
+                <p>name</p>
+                <a href="#" class="myButton">Back to top</a>
+            </div>
+
+            <div id="three" class="main_top">
+            	<h1>Syllabus</h1>
+            </div>
+
+           	<div class="main_body">
+
+<table class="tg">
+  <tr>
+    <th class="tg-1hqw">Week</th>
+    <th class="tg-1hqw">Date</th>
+    <th class="tg-1hqw">Lecture Topic</th>
+    <th class="tg-1hqw">HW</th>
+    <th class="tg-1hqw">Exam</th>
+  </tr>
+  <tr>
+    <td class="tg-ucxp">1</td>
+    <td class="tg-ucxp">Mar. 02</td>
+    <td class="tg-btmn">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas est mi, consequat eu viverra vel, mattis quis risus. Sed </td>
+    <td class="tg-ucxp">Adam</td>
+    <td class="tg-ucxp">Robert</td>
+  </tr>
+  <tr>
+    <td class="tg-3a3g">2</td>
+    <td class="tg-3a3g">Swimming</td>
+    <td class="tg-tvby">1:30</td>
+    <td class="tg-3a3g">2:05</td>
+    <td class="tg-3a3g">1:15</td>
+  </tr>
+  <tr>
+    <td class="tg-ucxp">3</td>
+    <td class="tg-ucxp">Running</td>
+    <td class="tg-btmn">15:30</td>
+    <td class="tg-ucxp">14:10</td>
+    <td class="tg-ucxp">15:45</td>
+  </tr>
+  <tr>
+    <td class="tg-3a3g">4</td>
+    <td class="tg-3a3g">Shooting</td>
+    <td class="tg-tvby">70%</td>
+    <td class="tg-3a3g">55%</td>
+    <td class="tg-3a3g">90%</td>
+  </tr>
+  <tr>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-btmn"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+  </tr>
+  <tr>
+    <td class="tg-3a3g"></td>
+    <td class="tg-3a3g"></td>
+    <td class="tg-tvby"></td>
+    <td class="tg-3a3g"></td>
+    <td class="tg-3a3g"></td>
+  </tr>
+  <tr>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-btmn"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+  </tr>
+  <tr>
+    <td class="tg-3a3g"></td>
+    <td class="tg-3a3g"></td>
+    <td class="tg-tvby"></td>
+    <td class="tg-3a3g"></td>
+    <td class="tg-3a3g"></td>
+  </tr>
+  <tr>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-btmn"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+  </tr>
+  <tr>
+    <td class="tg-3a3g"></td>
+    <td class="tg-3a3g"></td>
+    <td class="tg-tvby"></td>
+    <td class="tg-3a3g"></td>
+    <td class="tg-3a3g"></td>
+  </tr>
+  <tr>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-btmn"></td>
+    <td class="tg-ucxp"></td>
+    <td class="tg-ucxp"></td>
+  </tr>
+</table>
+            <a href="#" class="myButton">Back to top</a>
+            </div>
+
+            <div id="four" class="main_top">
+            	<h1>Assignment</h1>
+            </div>
+
+           	<div class="main_body">
+                <p>This template uses a H1 tags for the titles of each page, (or sub titles if you prefer) and paragraphs to separate the content.  </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas est mi, consequat eu viverra vel, mattis quis risus. Sed iaculis nunc a enim malesuada vel ornare ante euismod. Donec euismod, enim malesuada gravida sollicitudin, mauris ante commodo massa, a egestas leo erat at lorem. Aenean justo sapien, porta tempor placerat in, iaculis id leo. Quisque non erat ut nibh semper feugiat hendrerit sed neque. Vestibulum eget lectus a erat accumsan ornare non sed nulla. Vestibulum vitae turpis vitae dolor hendrerit pretium quis in odio. Praesent scelerisque, purus ut venenatis elementum, nisl felis ultrices ante, vitae rhoncus lacus massa ut enim. In sed mi arcu. Quisque ultricies pellentesque velit, feugiat viverra est pharetra ac. Quisque id risus eget mi gravida vehicula eget in neque. Integer consectetur, mauris a venenatis dictum, nibh urna tincidunt purus, eu rhoncus ligula erat ac eros. Integer vehicula, arcu a adipiscing sollicitudin, neque erat mollis risus, eget porttitor magna ligula ac justo. Nullam lobortis tortor vitae erat commodo sodales eget non velit. Duis erat tellus, cursus eu egestas id, auctor sit amet lectus. Suspendisse pellentesque ante a leo dignissim at dignissim nibh consectetur. Vestibulum feugiat mattis velit eu luctus. Aliquam nulla leo, ullamcorper feugiat posuere vitae, fringilla eu nibh. </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas est mi, consequat eu viverra vel, mattis quis risus. Sed iaculis nunc a enim malesuada vel ornare ante euismod. Donec euismod, enim malesuada gravida sollicitudin, mauris ante commodo massa, a egestas leo erat at lorem. Aenean justo sapien, porta tempor placerat in, iaculis id leo. Quisque non erat ut nibh semper feugiat hendrerit sed neque. Vestibulum eget lectus a erat accumsan ornare non sed nulla. Vestibulum vitae turpis vitae dolor hendrerit pretium quis in odio. Praesent scelerisque, purus ut venenatis elementum, nisl felis ultrices ante, vitae rhoncus lacus massa ut enim. In sed mi arcu. Quisque ultricies pellentesque velit, feugiat viverra est pharetra ac. Quisque id risus eget mi gravida vehicula eget in neque. Integer consectetur, mauris a venenatis dictum, nibh urna tincidunt purus, eu rhoncus ligula erat ac eros. Integer vehicula, arcu a adipiscing sollicitudin, neque erat mollis risus, eget porttitor magna ligula ac justo. Nullam lobortis tortor vitae erat commodo sodales eget non velit. Duis erat tellus, cursus eu egestas id, auctor sit amet lectus. Suspendisse pellentesque ante a leo dignissim at dignissim nibh consectetur. Vestibulum feugiat mattis velit eu luctus. Aliquam nulla leo, ullamcorper feugiat posuere vitae, fringilla eu nibh. </p>
+            <a href="#" class="myButton">Back to top</a>
+            </div>
+
+            <div id="five" class="main_top">
+            	<h1>Reference</h1>
+            </div>
+
+           	<div class="main_body">
+                <p>This template uses a H1 tags for the titles of each page, (or sub titles if you prefer) and paragraphs to separate the content.  </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas est mi, consequat eu viverra vel, mattis quis risus. Sed iaculis nunc a enim malesuada vel ornare ante euismod. Donec euismod, enim malesuada gravida sollicitudin, mauris ante commodo massa, a egestas leo erat at lorem. Aenean justo sapien, porta tempor placerat in, iaculis id leo. Quisque non erat ut nibh semper feugiat hendrerit sed neque. Vestibulum eget lectus a erat accumsan ornare non sed nulla. Vestibulum vitae turpis vitae dolor hendrerit pretium quis in odio. Praesent scelerisque, purus ut venenatis elementum, nisl felis ultrices ante, vitae rhoncus lacus massa ut enim. In sed mi arcu. Quisque ultricies pellentesque velit, feugiat viverra est pharetra ac. Quisque id risus eget mi gravida vehicula eget in neque. Integer consectetur, mauris a venenatis dictum, nibh urna tincidunt purus, eu rhoncus ligula erat ac eros. Integer vehicula, arcu a adipiscing sollicitudin, neque erat mollis risus, eget porttitor magna ligula ac justo. Nullam lobortis tortor vitae erat commodo sodales eget non velit. Duis erat tellus, cursus eu egestas id, auctor sit amet lectus. Suspendisse pellentesque ante a leo dignissim at dignissim nibh consectetur. Vestibulum feugiat mattis velit eu luctus. Aliquam nulla leo, ullamcorper feugiat posuere vitae, fringilla eu nibh. </p>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas est mi, consequat eu viverra vel, mattis quis risus. Sed iaculis nunc a enim malesuada vel ornare ante euismod. Donec euismod, enim malesuada gravida sollicitudin, mauris ante commodo massa, a egestas leo erat at lorem. Aenean justo sapien, porta tempor placerat in, iaculis id leo. Quisque non erat ut nibh semper feugiat hendrerit sed neque. Vestibulum eget lectus a erat accumsan ornare non sed nulla. Vestibulum vitae turpis vitae dolor hendrerit pretium quis in odio. Praesent scelerisque, purus ut venenatis elementum, nisl felis ultrices ante, vitae rhoncus lacus massa ut enim. In sed mi arcu. Quisque ultricies pellentesque velit, feugiat viverra est pharetra ac. Quisque id risus eget mi gravida vehicula eget in neque. Integer consectetur, mauris a venenatis dictum, nibh urna tincidunt purus, eu rhoncus ligula erat ac eros. Integer vehicula, arcu a adipiscing sollicitudin, neque erat mollis risus, eget porttitor magna ligula ac justo. Nullam lobortis tortor vitae erat commodo sodales eget non velit. Duis erat tellus, cursus eu egestas id, auctor sit amet lectus. Suspendisse pellentesque ante a leo dignissim at dignissim nibh consectetur. Vestibulum feugiat mattis velit eu luctus. Aliquam nulla leo, ullamcorper feugiat posuere vitae, fringilla eu nibh. </p>
+            <a href="#" class="myButton">Back to top</a>
+            </div>
+
+
+           	<div class="main_bottom"></div>
+
+
+        </div>
+        
+        
+        
+        <!--<div id="footer">
+        <p>
+        <a href="http://www.aszx.net">web development</a> by <a href="http://www.bryantsmith.com">bryant smith</a>
+        </p>
+        </div>-->
+        
+        </div>
+</body>
+</html>
