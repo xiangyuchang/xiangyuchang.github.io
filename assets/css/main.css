@@ -2602,6 +2602,7 @@
 
 		.image.left, .image.right {
 			max-width: 40%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
@@ -3012,7 +3013,7 @@
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
 		flex-direction: row;
-		min-height: 22.5em;
+		/*min-height: 22.5em;*/
 	}
 
 		body.is-ie .spotlights > section {
@@ -3025,7 +3026,7 @@
 			border-radius: 0;
 			display: block;
 			position: relative;
-			width: 25em;
+			width: 100%;
 		}
 
 			.spotlights > section > .image img {
