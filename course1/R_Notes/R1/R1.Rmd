@@ -1,6 +1,6 @@
 ---
 title: "R1"
-author: ""
+author: "申旌周与常象宇"
 date: "2017年2月23日"
 output: 
   html_document:
