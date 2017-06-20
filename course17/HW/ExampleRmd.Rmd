@@ -1,0 +1,96 @@
+---
+title: "A Simple R Markdown"
+author: "Jingzhou Shen and Xiangyu Chang"
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    theme: cerulean
+    highlight: tango
+---
+
+# Introduction {#你的学号-intro}
+
+**#此处是标题，{#此处为标题的别名}**  
+每个标题都需要有一个别名，别名的格式为“你的学号-有意义的标题缩写”
+
+这里是序言。  
+我们可以访问课程主页：[商务数据智能分析](http://xiangyuchang.github.io/course1/index.html)
+
+## Section 1 {#你的学号-sec-1}
+
+这里是序言的第1小节。  
+行尾空两格可另起一段。  
+我们可以设置字体的**加粗**和 _斜体_。 
+
+引用：我们可以引入益辉大神写的包： **knitr** [@xie2015].  
+
+
+## Section 2 {#你的学号-sec-2}
+
+这里是序言的第2小节。
+
+我们可以写公式：  
+- 行内公式：$a^2 + b^2 = c^2$.就是这样简单。  
+- 行间公式：
+$$X = \begin{bmatrix}1 & x_{1}\\
+1 & x_{2}\\
+1 & x_{3}
+\end{bmatrix}$$
+
+### First SubSection of Section 2 {#你的学号-sec-2.1}
+
+1. 插入图片：Picture  
+![大](./Rword.png)
+
+2. 画图：Figure
+
+   - 使用默认设置，结果如下
+    
+```{r}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+
+   - 设置**eval = FALSE**可以不显示代码运行结果
+
+
+```{r eval=FALSE}
+par(mar = c(4, 4, .1, .1))
+plot(pressure, type = 'b', pch = 19)
+```
+
+### Second SubSection of Section 2 {#你的学号-sec-2.2}
+
+1. 动态表格：Table   
+
+   - 设置**echo = FALSE**可以不显示代码  
+```{r echo=FALSE}
+knitr::kable(
+  head(iris, 6)
+)
+```
+
+   - 如下代码可查看表格的第一个元素 `r iris[1,1]` 
+```{r eval=FALSE}
+
+`r iris[1,1]`
+
+```
+
+    
+2. 静态表格
+
+姓名 | 学号
+---- | ----
+张三 | 007
+李四 | 008
+
+
+# ...
+
+# References {#你的学号-ref}
