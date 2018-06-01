@@ -1,0 +1,41 @@
+---
+title: "熊学堂-火锅英雄"
+author: "狗熊会政委"
+date: "05/31/2018"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+<!-- Currently the theme option can take the following values. More themes will be added in the future. -->
+
+<!--         cayman: Modified from the Cayman theme. -->
+<!--         tactile: Modified from the Tactile theme. -->
+<!--         architect: Modified from the Architect theme. -->
+<!--         leonids: Modified from the Leonids theme. -->
+<!--         hpstr: Modified from the HPSTR theme. -->
+
+<!-- The highlight option takes value from github and vignette. Options code_folding, code_download and toc_float are not applicable. -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, cache = T, message = F)
+```
+
+# 火锅英雄第三部分：探索性数据分析
+
+
+
+## 1. 资料阅读
+
+- **阅读材料1**：狗熊会人才计划——[数据描述](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650239457&idx=1&sn=1d27dea3b5b2034873314f64d9e08d33&chksm=88722e8cbf05a79a7634c5c9c6e9ffb0ea5c4d3589f87e2edb9ad2ea1ecea14f42b2b0d3b638&scene=21#wechat_redirect)。
+
+- **阅读材料2**：狗熊会人才计划——[报告撰写](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650239914&idx=1&sn=0e8b08e27a117b0ebc8c1e52693de163&chksm=88722cc7bf05a5d122cd2b43aec4ae203b86b46893bc8ffd10fcfe9efd6195853000fc01b5eb&scene=21#wechat_redirect)。
+
+- **阅读材料3**：狗熊会人才计划——[PPT制作入门](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650240253&idx=1&sn=dfffc8db0d23c40f2e1903cb5babbd11&chksm=88722b90bf05a2865a0fd34cc38c54acfcf8170a35c5e983609eb346430a4f40649e75bd73d1&scene=21#wechat_redirect)。
+
+## 2. 本次作业
+
+通过前两次的课程，我想参加本课程的熊粉已经对于本部分课程的背景和数据都已经非常熟悉了。特别是第二次作业给大家完成了通过简单的数据描述方式熟悉了数据。而这批数据的变量很多，能够挖掘的业务问题也有很多。本次作业请按照狗熊会人才计划的标准撰书写数据分析报告中的**数据描述分析**部分。并制作数据描述分析的PPT一份。提交不超过2页的格式“**用户名_火锅_3.pdf**”。 提交时间XXXX。
+

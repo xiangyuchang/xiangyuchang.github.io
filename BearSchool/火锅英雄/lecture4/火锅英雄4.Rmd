@@ -1,0 +1,45 @@
+---
+title: "熊学堂-火锅英雄"
+author: "狗熊会政委"
+date: "05/31/2018"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+<!-- Currently the theme option can take the following values. More themes will be added in the future. -->
+
+<!--         cayman: Modified from the Cayman theme. -->
+<!--         tactile: Modified from the Tactile theme. -->
+<!--         architect: Modified from the Architect theme. -->
+<!--         leonids: Modified from the Leonids theme. -->
+<!--         hpstr: Modified from the HPSTR theme. -->
+
+<!-- The highlight option takes value from github and vignette. Options code_folding, code_download and toc_float are not applicable. -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, cache = T, message = F)
+```
+
+# 火锅英雄第四部分：逻辑回归分析
+
+
+
+## 1. 资料阅读
+
+- **阅读材料1**：狗熊会人才计划——[回归分析](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650240115&idx=1&sn=ab3d1b1798543cf48551e82e21ca6965&chksm=88722b1ebf05a2081de2bbe47febd801c9980b00dfa73fd3bb28f6869be16f1fb1d9051ba6b8&scene=21#wechat_redirect)。
+
+- **阅读材料2**：狗熊会人才计划——[报告撰写](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650239914&idx=1&sn=0e8b08e27a117b0ebc8c1e52693de163&chksm=88722cc7bf05a5d122cd2b43aec4ae203b86b46893bc8ffd10fcfe9efd6195853000fc01b5eb&scene=21#wechat_redirect)。
+
+- **阅读材料3**：狗熊会人才计划——[PPT制作入门](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650240253&idx=1&sn=dfffc8db0d23c40f2e1903cb5babbd11&chksm=88722b90bf05a2865a0fd34cc38c54acfcf8170a35c5e983609eb346430a4f40649e75bd73d1&scene=21#wechat_redirect)。
+
+## 2. 本次任务
+
+能不能把逻辑回归的任务放在这里，让大家去看，然后重复一下结果。把这部分内容写入一个RMD的运行结果pdf提交。
+
+## 3. 本次作业
+
+本次作业请按照狗熊会人才计划的标准撰书写数据分析报告中的**模型分析**部分（特别注意如何解读模型）。并制作模型分析的PPT一份。提交不超过2页的格式“**用户名_火锅_4.pdf**”。 提交时间XXXX。
+

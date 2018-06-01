@@ -1,0 +1,61 @@
+---
+title: "熊学堂-火锅英雄"
+author: "狗熊会政委"
+date: "05/31/2018"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+<!-- Currently the theme option can take the following values. More themes will be added in the future. -->
+
+<!--         cayman: Modified from the Cayman theme. -->
+<!--         tactile: Modified from the Tactile theme. -->
+<!--         architect: Modified from the Architect theme. -->
+<!--         leonids: Modified from the Leonids theme. -->
+<!--         hpstr: Modified from the HPSTR theme. -->
+
+<!-- The highlight option takes value from github and vignette. Options code_folding, code_download and toc_float are not applicable. -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, cache = T, message = F)
+```
+
+# 火锅英雄第二部分：熟悉数据
+
+## 1.资料阅读
+
+- **阅读材料1**：狗熊会人才计划——[介绍数据](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650239156&idx=1&sn=23f937bf54f464a09e0c1471096db39c&chksm=88722fd9bf05a6cfb5091f70e37e94351d85e8ce536834d8f6b4db911174fa1c51e93f439099&scene=21#wechat_redirect)。
+
+- **阅读材料2**：狗熊会人才计划——[代码规范](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650239956&idx=1&sn=34f110ac20bb76d20baed2c44befb121&chksm=88722cb9bf05a5afed59de19388653863b7cb131f0b86363816ff0abe80f86816feb71381617&scene=21#wechat_redirect)。
+
+- **阅读材料3**：狗熊会人才计划——[学习R Markdown](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650240031&idx=1&sn=1b624a993dec1450368ac34672945a54&chksm=88722b72bf05a26447a1862479b709a0965ae72b35fb8d0ff2071342da6d387177a83d9ca69a&scene=21#wechat_redirect)。
+
+## 2.本次作业
+
+- 请按照人才计划的标准，在第一次作业的PPT中加入**介绍数据**的部分。
+
+- 请按照人才计划的标准，完成如下7个任务，从而达到熟悉数据的目的。请提交一份RMD生成的“**用户名_火锅_2.pdf**”文件（里面包括代码，运行结果与业务解读）。
+
+## 3.数据任务
+
+### 任务一
+
+找到数据data，读入样本数据（提前设置好工作路径），命名为hot.pot。将“字段1”，“字段2”两列的数据格式设置为字符；用summary函数查看数据记录的变量等情况。
+
+
+```{r}
+
+# 读取数据 
+hot.pot <- read.csv("HotPotForMac.csv", header = T, encoding = 'GB18030')
+
+# # 转换变量
+#hot.pot <- transform(hot.pot, 字段1 = as.character(字段1), 字段2 = #as.character(字段2))
+
+
+summary(hot.pot)
+```
+
+

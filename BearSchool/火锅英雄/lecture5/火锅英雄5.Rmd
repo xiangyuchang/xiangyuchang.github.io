@@ -1,0 +1,44 @@
+---
+title: "熊学堂-火锅英雄"
+author: "狗熊会政委"
+date: "05/31/2018"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+<!-- Currently the theme option can take the following values. More themes will be added in the future. -->
+
+<!--         cayman: Modified from the Cayman theme. -->
+<!--         tactile: Modified from the Tactile theme. -->
+<!--         architect: Modified from the Architect theme. -->
+<!--         leonids: Modified from the Leonids theme. -->
+<!--         hpstr: Modified from the HPSTR theme. -->
+
+<!-- The highlight option takes value from github and vignette. Options code_folding, code_download and toc_float are not applicable. -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, cache = T, message = F)
+```
+
+# 火锅英雄第五部分：成为火锅英雄
+
+## 1.结束语
+
+吃货无止境，火锅成英雄。通过“火锅英雄”的课程其实我们主要训练了大家针对业务问题的完整的数据分析能力。大家可以把这个课程讨论的业务问题进行扩展，向其他吃货产品，团购产品，甚至其他领域延伸。希望大家能够体验这份数据分析的快乐。
+
+![](./hot.jpeg)
+
+## 2.最后的“痛苦”
+
+提交
+
+- 完整分析报告一份，命名“用户名_火锅.pdf”
+
+- 完整PPT一份，命名“用户名_火锅.ppt”
+
+- 完整RMD一份，命名“用户名_火锅.rmd”
+
+# 完结，回山洞睡觉了熊粉们！

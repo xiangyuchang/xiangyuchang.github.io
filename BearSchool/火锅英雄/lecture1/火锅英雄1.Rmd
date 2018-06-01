@@ -1,0 +1,48 @@
+---
+title: "熊学堂-火锅英雄"
+author: "狗熊会政委"
+date: "05/31/2018"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+<!-- Currently the theme option can take the following values. More themes will be added in the future. -->
+
+<!--         cayman: Modified from the Cayman theme. -->
+<!--         tactile: Modified from the Tactile theme. -->
+<!--         architect: Modified from the Architect theme. -->
+<!--         leonids: Modified from the Leonids theme. -->
+<!--         hpstr: Modified from the HPSTR theme. -->
+
+<!-- The highlight option takes value from github and vignette. Options code_folding, code_download and toc_float are not applicable. -->
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = F, cache = T, message = F)
+```
+
+# 火锅英雄第一部分：背景介绍
+
+## 1.背景介绍
+
+如果你对中国火锅文化稍作了解，你就发现火锅可以被称作中国第一大美食。而且我可以偷偷的告诉你，狗熊会的熊大对于火锅也是情有独钟。这不熊大最近正琢磨着开一家火锅店。他就想，咱们这狗熊会可厉害了，都是数据分析高手，能不能开店之前咱们就仔细分析一下到底开个什么品种的火锅店呢？在熊大的压榨下，狗熊会的小伙伴们忙碌了起来。爬数据的爬数据，写分析报告的写分析报告。但是这都是非常快乐的“数据分析报告”。好了，各位熊粉是否希望加入本课程，和狗熊会政委一起通过火锅团购数据分析为熊大打造一款火锅团购的爆款呢？快来加入吧，成为真正的“火锅英雄”。熊大正在火锅店门口等你，不见不散（口水。。。）。
+![](./hot.jpeg)
+
+## 2. 资料阅读
+
+随着互联网消费方式的渗透，团购、移动支付等电子商务的发展对传统行业有着重要的影响。以餐饮-火锅行业为例，越来越多的火锅商户开始尝试通过提供线上团购套餐的方式，提高自身经营表现。通过对互联网团购数据进行统计分析，可以为我们进一步了解团购销量的影响因素带来一定的价值。最终通过这些影响因素分析，就可以帮助熊大实现“火锅梦”。
+
+**阅读材料1**：狗熊会精品案例中的案例推文[火锅团购二三事](https://mp.weixin.qq.com/s/eOeH4WF82ZEbV9S3qidhXg)。
+
+**阅读材料2**：狗熊会人才计划——[写好背景介绍](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650239110&idx=1&sn=cb93fabf0409328e1ec93c3ab265e7cb&chksm=88722febbf05a6fddfdcaaab448c65847573a916c96a3e3a80b1484782c3daf7d4de31689ee9&scene=21#wechat_redirect)。
+
+**阅读材料3**：狗熊会人才计划——[报告撰写](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650239914&idx=1&sn=0e8b08e27a117b0ebc8c1e52693de163&chksm=88722cc7bf05a5d122cd2b43aec4ae203b86b46893bc8ffd10fcfe9efd6195853000fc01b5eb&scene=21#wechat_redirect)。
+
+**阅读材料4**：狗熊会人才计划——[PPT制作入门](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650240253&idx=1&sn=dfffc8db0d23c40f2e1903cb5babbd11&chksm=88722b90bf05a2865a0fd34cc38c54acfcf8170a35c5e983609eb346430a4f40649e75bd73d1&scene=21#wechat_redirect)。
+
+## 3.本次作业
+
+请按照狗熊会人才计划的标准撰写一份关于中国火锅行业的**背景介绍**（包括线上线下渠道），并制作背景介绍的PPT一份。提交格式“**用户名_火锅_1.pdf**”. 提交时间XXXX。
+
